@@ -16,14 +16,26 @@
 		0181B8B82B0E50480030F36E /* PiperappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181B8B72B0E50480030F36E /* PiperappTests.swift */; };
 		0181B8D42B0E538E0030F36E /* PiperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0181B8D32B0E538E0030F36E /* PiperDemo.swift */; };
 		01E4FA132B707D4000EC18C3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E4FA122B707D4000EC18C3 /* Logger.swift */; };
-		01E4FA192B70819F00EC18C3 /* PiperappUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4FA0B2B707CEC00EC18C3 /* PiperappUtils.framework */; };
 		01F87EE02B3D166C00DF2C01 /* PiperttsAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F87EDF2B3D166C00DF2C01 /* PiperttsAudioUnit.swift */; };
 		01F87EE62B3D166C00DF2C01 /* AudioUnitFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F87EE52B3D166C00DF2C01 /* AudioUnitFactory.swift */; };
 		01F87EEB2B3D166C00DF2C01 /* PiperTTS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 01F87ED02B3D166C00DF2C01 /* PiperTTS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		01F87EF12B3D169E00DF2C01 /* uk_UA-lada.onnx.json in Resources */ = {isa = PBXBuildFile; fileRef = 0181B8E12B0E69390030F36E /* uk_UA-lada.onnx.json */; };
-		01F87EF22B3D169E00DF2C01 /* uk_UA-lada.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0181B8E02B0E69390030F36E /* uk_UA-lada.onnx */; };
 		01F87EF32B3D16A200DF2C01 /* espeak-ng-data in Resources */ = {isa = PBXBuildFile; fileRef = 0181B8E42B0E70EC0030F36E /* espeak-ng-data */; };
 		01F87EF72B3D1A8A00DF2C01 /* CShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F87EF62B3D1A8A00DF2C01 /* CShort.swift */; };
+		A50C18FD2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json in Resources */ = {isa = PBXBuildFile; fileRef = A50C18FB2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json */; };
+		A50C18FE2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json in Resources */ = {isa = PBXBuildFile; fileRef = A50C18FB2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json */; };
+		A50C18FF2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json in Resources */ = {isa = PBXBuildFile; fileRef = A50C18FB2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json */; };
+		A50C19002C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json in Resources */ = {isa = PBXBuildFile; fileRef = A50C18FB2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json */; };
+		A50C19012C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx in Resources */ = {isa = PBXBuildFile; fileRef = A50C18FC2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx */; };
+		A50C19022C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx in Resources */ = {isa = PBXBuildFile; fileRef = A50C18FC2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx */; };
+		A50C19032C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx in Resources */ = {isa = PBXBuildFile; fileRef = A50C18FC2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx */; };
+		A50C19042C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx in Resources */ = {isa = PBXBuildFile; fileRef = A50C18FC2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx */; };
+		A5CD697B2C402D0F00C95830 /* gwryw_gogledd_x_low_fp16.onnx in Resources */ = {isa = PBXBuildFile; fileRef = A5CD697A2C402D0E00C95830 /* gwryw_gogledd_x_low_fp16.onnx */; };
+		A5CD697C2C402D0F00C95830 /* gwryw_gogledd_x_low_fp16.onnx in Resources */ = {isa = PBXBuildFile; fileRef = A5CD697A2C402D0E00C95830 /* gwryw_gogledd_x_low_fp16.onnx */; };
+		A5CD697D2C402D0F00C95830 /* gwryw_gogledd_x_low_fp16.onnx in Resources */ = {isa = PBXBuildFile; fileRef = A5CD697A2C402D0E00C95830 /* gwryw_gogledd_x_low_fp16.onnx */; };
+		A5CD697E2C402D0F00C95830 /* gwryw_gogledd_x_low_fp16.onnx in Resources */ = {isa = PBXBuildFile; fileRef = A5CD697A2C402D0E00C95830 /* gwryw_gogledd_x_low_fp16.onnx */; };
+		A5E6247D2C2C13BA00C076BC /* PiperappUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4FA0B2B707CEC00EC18C3 /* PiperappUtils.framework */; };
+		A5E6247E2C2C13BA00C076BC /* PiperappUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01E4FA0B2B707CEC00EC18C3 /* PiperappUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5E624812C2C2D8D00C076BC /* tts.svg in Resources */ = {isa = PBXBuildFile; fileRef = A5E624802C2C2D8D00C076BC /* tts.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +74,17 @@
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5E6247F2C2C13BA00C076BC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5E6247E2C2C13BA00C076BC /* PiperappUtils.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -75,8 +98,6 @@
 		0181B8D32B0E538E0030F36E /* PiperDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiperDemo.swift; sourceTree = "<group>"; };
 		0181B8D62B0E54360030F36E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		0181B8D82B0E55C00030F36E /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
-		0181B8E02B0E69390030F36E /* uk_UA-lada.onnx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "uk_UA-lada.onnx"; path = "piperapp/uk_UA-lada.onnx"; sourceTree = "<group>"; };
-		0181B8E12B0E69390030F36E /* uk_UA-lada.onnx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "uk_UA-lada.onnx.json"; path = "piperapp/uk_UA-lada.onnx.json"; sourceTree = "<group>"; };
 		0181B8E42B0E70EC0030F36E /* espeak-ng-data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "espeak-ng-data"; path = "piperapp/espeak-ng-data"; sourceTree = "<group>"; };
 		01E4FA0B2B707CEC00EC18C3 /* PiperappUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PiperappUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E4FA122B707D4000EC18C3 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
@@ -88,6 +109,10 @@
 		01F87EE52B3D166C00DF2C01 /* AudioUnitFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitFactory.swift; sourceTree = "<group>"; };
 		01F87EE72B3D166C00DF2C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01F87EF62B3D1A8A00DF2C01 /* CShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CShort.swift; sourceTree = "<group>"; };
+		A50C18FB2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = gwryw_gogledd_x_low.onnx.json; path = ../../../gwryw_gogledd_x_low.onnx.json; sourceTree = "<group>"; };
+		A50C18FC2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx */ = {isa = PBXFileReference; lastKnownFileType = file; name = gwryw_gogledd_x_low.onnx; path = ../../../gwryw_gogledd_x_low.onnx; sourceTree = "<group>"; };
+		A5CD697A2C402D0E00C95830 /* gwryw_gogledd_x_low_fp16.onnx */ = {isa = PBXFileReference; lastKnownFileType = file; path = gwryw_gogledd_x_low_fp16.onnx; sourceTree = "<group>"; };
+		A5E624802C2C2D8D00C076BC /* tts.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tts.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01E4FA192B70819F00EC18C3 /* PiperappUtils.framework in Frameworks */,
+				A5E6247D2C2C13BA00C076BC /* PiperappUtils.framework in Frameworks */,
 				010F1E0E2B805FFF00357A22 /* piper-objc in Frameworks */,
 				0145AF0F2B804B2000D94528 /* piper-objc in Frameworks */,
 			);
@@ -128,9 +153,11 @@
 		0181B89A2B0E50470030F36E = {
 			isa = PBXGroup;
 			children = (
+				A50C18FC2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx */,
+				A5CD697A2C402D0E00C95830 /* gwryw_gogledd_x_low_fp16.onnx */,
+				A50C18FB2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json */,
+				A5E624802C2C2D8D00C076BC /* tts.svg */,
 				0181B8E42B0E70EC0030F36E /* espeak-ng-data */,
-				0181B8E02B0E69390030F36E /* uk_UA-lada.onnx */,
-				0181B8E12B0E69390030F36E /* uk_UA-lada.onnx.json */,
 				0181B8A52B0E50470030F36E /* PiperApp */,
 				01F87ED12B3D166C00DF2C01 /* PiperTTS */,
 				0181B8B62B0E50480030F36E /* PiperAppTests */,
@@ -347,6 +374,7 @@
 				01F87ECC2B3D166C00DF2C01 /* Sources */,
 				01F87ECD2B3D166C00DF2C01 /* Frameworks */,
 				01F87ECE2B3D166C00DF2C01 /* Resources */,
+				A5E6247F2C2C13BA00C076BC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -370,7 +398,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					0181B8A22B0E50470030F36E = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -417,8 +445,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E624812C2C2D8D00C076BC /* tts.svg in Resources */,
 				0181B8AE2B0E50480030F36E /* Preview Assets.xcassets in Resources */,
 				0181B8AB2B0E50480030F36E /* Assets.xcassets in Resources */,
+				A50C19012C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx in Resources */,
+				A50C18FD2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json in Resources */,
+				A5CD697B2C402D0F00C95830 /* gwryw_gogledd_x_low_fp16.onnx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +458,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50C19022C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx in Resources */,
+				A50C18FE2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json in Resources */,
+				A5CD697C2C402D0F00C95830 /* gwryw_gogledd_x_low_fp16.onnx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +468,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50C19042C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx in Resources */,
+				A50C19002C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json in Resources */,
+				A5CD697E2C402D0F00C95830 /* gwryw_gogledd_x_low_fp16.onnx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,8 +479,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				01F87EF32B3D16A200DF2C01 /* espeak-ng-data in Resources */,
-				01F87EF22B3D169E00DF2C01 /* uk_UA-lada.onnx in Resources */,
-				01F87EF12B3D169E00DF2C01 /* uk_UA-lada.onnx.json in Resources */,
+				A50C19032C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx in Resources */,
+				A50C18FF2C36A4EE00B7AAD3 /* gwryw_gogledd_x_low.onnx.json in Resources */,
+				A5CD697D2C402D0F00C95830 /* gwryw_gogledd_x_low_fp16.onnx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,7 +638,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -656,7 +695,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -675,21 +714,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"piperapp/Preview Content\"";
-				DEVELOPMENT_TEAM = T4B4N4F7Q4;
+				DEVELOPMENT_TEAM = 99Z8TNAFH4;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TechiaithTTS;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihorshevchuk.piperapp;
+				PRODUCT_BUNDLE_IDENTIFIER = cymru.techiaith.piperapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -707,21 +749,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"piperapp/Preview Content\"";
-				DEVELOPMENT_TEAM = T4B4N4F7Q4;
+				DEVELOPMENT_TEAM = 99Z8TNAFH4;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TechiaithTTS;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihorshevchuk.piperapp;
+				PRODUCT_BUNDLE_IDENTIFIER = cymru.techiaith.piperapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -737,9 +782,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Z8TNAFH4;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihorshevchuk.piperappTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cymru.techiaith.piperappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -755,9 +802,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Z8TNAFH4;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihorshevchuk.piperappTests;
+				PRODUCT_BUNDLE_IDENTIFIER = cymru.techiaith.piperappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -770,9 +819,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 99Z8TNAFH4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -780,6 +831,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -787,7 +839,8 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihorshevchuk.PiperappUtils;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "c17 c++17";
+				PRODUCT_BUNDLE_IDENTIFIER = cymru.techiaith.PiperappUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -803,9 +856,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 99Z8TNAFH4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -813,6 +868,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -820,7 +876,8 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihorshevchuk.PiperappUtils;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "c17 c++17";
+				PRODUCT_BUNDLE_IDENTIFIER = cymru.techiaith.PiperappUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -837,18 +894,19 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T4B4N4F7Q4;
+				DEVELOPMENT_TEAM = 99Z8TNAFH4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pipertts/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = pipertts;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihorshevchuk.piperapp.pipertts;
+				PRODUCT_BUNDLE_IDENTIFIER = cymru.techiaith.piperapp.pipertts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -864,18 +922,19 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T4B4N4F7Q4;
+				DEVELOPMENT_TEAM = 99Z8TNAFH4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = pipertts/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = pipertts;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihorshevchuk.piperapp.pipertts;
+				PRODUCT_BUNDLE_IDENTIFIER = cymru.techiaith.piperapp.pipertts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;

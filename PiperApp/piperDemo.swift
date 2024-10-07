@@ -10,20 +10,26 @@ import AVFoundation
 
 class PiperDemo: NSObject {
     static let shared = PiperDemo()
-    var synt = AVSpeechSynthesizer()
-
+    let synt = AVSpeechSynthesizer()
+    
     override init() {
         super.init()
     }
 
-    func doJob() {
-
-        let voice = AVSpeechSynthesisVoice.speechVoices().first { voiceInArray in
-            return voiceInArray.identifier == "com.ihorshevchuk.piperapp.pipertts.pipertts"
+    func doJob(textInput: String) {
+        do {
+            try AVAudioSession.sharedInstance().setCategory(.playback)
+        } catch let error {
+            print(error.localizedDescription)
         }
-
-        let utterance = AVSpeechUtterance(string: "Тестування голосу Лада, всім привіт! Test Latin chars")
-        utterance.voice = voice
-        synt.speak(utterance)
+        let voice = AVSpeechSynthesisVoice.speechVoices().first { voiceInArray in
+            return voiceInArray.identifier == "cymru.techiaith.piperapp.pipertts.bu-tts-cy"
+        }
+        print(voice)
+        if !textInput.isEmpty {
+            let utterance = AVSpeechUtterance(string: textInput)
+            utterance.voice = voice
+            synt.speak(utterance)
+        }
     }
 }

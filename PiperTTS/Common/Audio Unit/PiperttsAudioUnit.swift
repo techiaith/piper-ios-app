@@ -36,12 +36,16 @@ public class PiperttsAudioUnit: AVSpeechSynthesisProviderAudioUnit {
         return _outputBusses
     }
     
+    enum MyError: Error {
+        case runtimeError(String)
+    }
+    
     public override func allocateRenderResources() throws {
         try super.allocateRenderResources()
-        Log.debug("allocateRenderResources")
+        print("allocateRenderResources")
         if piper == nil {
-            let model = Bundle.main.path(forResource: "uk_UA-lada", ofType: "onnx")!
-            let config = Bundle.main.path(forResource: "uk_UA-lada.onnx", ofType: "json")!
+            let model = Bundle.main.path(forResource: "gwryw_gogledd_x_low_fp16", ofType: "onnx")!
+            let config = Bundle.main.path(forResource: "gwryw_gogledd_x_low.onnx", ofType: "json")!
             piper = Piper(modelPath: model, andConfigPath: config)
         }
     }
@@ -67,7 +71,7 @@ public class PiperttsAudioUnit: AVSpeechSynthesisProviderAudioUnit {
             }
 
             if piper.completed() && !piper.hasSamplesLeft() {
-                Log.debug("Completed rendering")
+                print("Completed rendering")
                 actionFlags.pointee = .offlineUnitRenderAction_Complete
                 self.cleanUp()
                 return noErr
@@ -75,7 +79,7 @@ public class PiperttsAudioUnit: AVSpeechSynthesisProviderAudioUnit {
 
             if !piper.readyToRead() {
                 actionFlags.pointee = .offlineUnitRenderAction_Preflight
-                Log.debug("No bytes yet.")
+                print("No bytes yet.")
                 return noErr
             }
 
@@ -83,7 +87,7 @@ public class PiperttsAudioUnit: AVSpeechSynthesisProviderAudioUnit {
 
             guard let levelsData else {
                 actionFlags.pointee = .offlineUnitRenderAction_Preflight
-                Log.debug("Rendering in progress. No bytes.")
+                print("Rendering in progress. No bytes.")
                 return noErr
             }
 
@@ -99,7 +103,7 @@ public class PiperttsAudioUnit: AVSpeechSynthesisProviderAudioUnit {
 
             actionFlags.pointee = .offlineUnitRenderAction_Render
 
-            Log.debug("Rendering \(levelsData.count) bytes")
+            print("Rendering \(levelsData.count) bytes")
 
             return noErr
 
@@ -107,16 +111,16 @@ public class PiperttsAudioUnit: AVSpeechSynthesisProviderAudioUnit {
     }
 
     public override func synthesizeSpeechRequest(_ speechRequest: AVSpeechSynthesisProviderRequest) {
-        Log.debug("synthesizeSpeechRequest \(speechRequest.ssmlRepresentation)")
+        print("synthesizeSpeechRequest \(speechRequest.ssmlRepresentation)")
         self.request = speechRequest
         let text = AVSpeechUtterance(ssmlRepresentation: speechRequest.ssmlRepresentation)?.speechString
-
-        piper?.cancel()
+        print(text!)
         piper?.synthesize(text ?? "")
+        piper?.completed()
     }
     
     public override func cancelSpeechRequest() {
-        Log.debug("\(#file) cancelSpeechRequest")
+        print("\(#file) cancelSpeechRequest")
         cleanUp()
         piper?.cancel()
     }
@@ -128,7 +132,7 @@ public class PiperttsAudioUnit: AVSpeechSynthesisProviderAudioUnit {
     public override var speechVoices: [AVSpeechSynthesisProviderVoice] {
         get {
             return [
-                AVSpeechSynthesisProviderVoice(name: "Lada", identifier: "pipertts", primaryLanguages: ["uk-UA"], supportedLanguages: ["uk-UA"])
+                AVSpeechSynthesisProviderVoice(name: "gwryw_gogleddol", identifier: "bu-tts-cy", primaryLanguages: ["cy-GB"], supportedLanguages: ["cy-GB", "en-GB"])
             ]
         }
         set { }

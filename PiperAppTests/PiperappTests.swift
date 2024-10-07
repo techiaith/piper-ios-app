@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import piperapp
+@testable import PiperApp
 
 final class PiperappTests: XCTestCase {
 
