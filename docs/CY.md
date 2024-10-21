@@ -4,12 +4,11 @@ Wedi ei fforchio o [IhorShevchuk/piper-ios-app](https://github.com/IhorShevchuk/
 
 ## Cychwyn Arni
 
-Mae hwn yn prawf o gysyniad gan [Ihor Shevechuk](https://github.com/IhorShevchuk)
-yn ddangos ddefnydd o allforiadau [onnx](https://onnxruntime.ai) o leisiau 
-[Piper TTS](https://github.com/rhasspy/piper).
+Mae hwn yn profi cysyniad gan [Ihor Shevechuk](https://github.com/IhorShevchuk)
+trwy ddefnyddio allforiad o leisiau [Piper TTS](https://github.com/rhasspy/piper) ar fformat [onnx](https://onnxruntime.ai)  
+.
 
-Mae'r côd wedi ei diweddaru i cynwys llais [Piper TTS](https://github.com/rhasspy/piper) 
-dwyieithog a hyfforddwyd gan yr [Uned Techonlegau Iaith](https://techiaith.cymru) @ 
+Mae'r cod wedi ei ddiweddaru i gynnwys llais dwyieithog [Piper TTS](https://github.com/rhasspy/piper) a hyfforddwyd gan yr [Uned Techonlegau Iaith](https://techiaith.cymru) @ 
 [Bangor University](https://bangor.ac.uk).
 
 ### Rhagofynion
@@ -19,17 +18,17 @@ dwyieithog a hyfforddwyd gan yr [Uned Techonlegau Iaith](https://techiaith.cymru
 ## Rhedeg yr arbrawf
 
     Agor Xcode
-    Galluogi'r Dyfais
-    Rhedeg y Broject
+    Galluogi'r Ddyfais
+    Rhedeg y Project
 
 ## Trwydded
 
-Wedi'i ddosbarthu dan Drwydded [GPL-2.0 license](LICENSE.md) 
+Wedi'i ddosbarthu dan Drwydded [GPL-2.0](LICENSE.md) 
 - gweler [LICENSE.md](LICENSE.md) am fanylion.
 
-## Acknowledgments
+## Diolchiadau
 
 <img src="https://github.com/techiaith/trawsgrifiwr-arlein/raw/main/docs/images/llyw_logo.png" alt="Logo" align="left">
 <img src="https://github.com/techiaith/trawsgrifiwr-arlein/raw/main/docs/images/BU_logo.png" alt="Logo" align="right">
 <br><br><br><br><br>
-Diolchwn i Lywodraeth Cymru am ariannu’r gwaith hwn fel rhan o brosiect Technoleg Cymraeg 2021-22.
+Diolchwn i Lywodraeth Cymru am ariannu’r gwaith hwn fel rhan o brosiect Technoleg Cymraeg 2024-25.
