@@ -24,8 +24,8 @@ voices as trained by the [Language Technologies Unit](https://techiaith.cymru) @
 
 ## License
 
-This project is licensed under the [GPL-2.0 license](LICENSE.md)
-license - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the [GPL-2.0](../LICENSE)
+license - see the [LICENSE.md](../LICENSE) file for details
 
 ## Acknowledgments
 

@@ -23,8 +23,8 @@ Mae'r cod wedi ei ddiweddaru i gynnwys llais dwyieithog [Piper TTS](https://gith
 
 ## Trwydded
 
-Wedi'i ddosbarthu dan Drwydded [GPL-2.0](LICENSE.md) - 
-gweler [LICENSE.md](LICENSE.md) am fanylion.
+Wedi'i ddosbarthu dan drwydded [GPL-2.0](../LICENSE) - 
+gweler [LICENSE.md](../LICENSE) am fanylion.
 
 ## Diolchiadau
 
