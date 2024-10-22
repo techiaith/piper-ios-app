@@ -4,12 +4,10 @@ Wedi ei fforchio o [IhorShevchuk/piper-ios-app](https://github.com/IhorShevchuk/
 
 ## Cychwyn Arni
 
-Mae hwn yn profi cysyniad gan [Ihor Shevechuk](https://github.com/IhorShevchuk)
-trwy ddefnyddio allforiad o leisiau [Piper TTS](https://github.com/rhasspy/piper) ar fformat [onnx](https://onnxruntime.ai)  
-.
+Dyma brawf o gysyniad a ddarparwyd gan [Ihor Shevechuk](https://github.com/IhorShevchuk) yn arddangos y defnydd o allforiadau [onnx](https://onnxruntime.ai) o leisiau [Piper TTS](https://github.com/rhasspy/piper).
 
-Mae'r cod wedi ei ddiweddaru i gynnwys llais dwyieithog [Piper TTS](https://github.com/rhasspy/piper) a hyfforddwyd gan yr [Uned Techonlegau Iaith](https://techiaith.cymru) @ 
-[Bangor University](https://bangor.ac.uk).
+Mae'r cod wedi'i ddiweddaru i gynnwys lleisiau dwyieithog CY-EN [Piper TTS](https://github.com/rhasspy/piper) a hyfforddwyd gan yr [Uned Techonlegau Iaith](https://techiaith.cymru) @ 
+[Prifysgol Bangor](https://www.bangor.ac.uk/cy).
 
 ### Rhagofynion
 
