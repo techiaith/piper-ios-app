@@ -32,4 +32,4 @@ license - see the [LICENSE.md](../LICENSE) file for details
 <img src="https://github.com/techiaith/trawsgrifiwr-arlein/raw/main/docs/images/llyw_logo.png" alt="Logo" align="left">
 <img src="https://github.com/techiaith/trawsgrifiwr-arlein/raw/main/docs/images/BU_logo.png" alt="Logo" align="right">
 <br><br><br><br><br>
-We thank the Welsh Government for funding this work as part of the Technoleg Cymraeg 2021-22 project.
+We thank the Welsh Government for funding this work as part of the Technoleg Cymraeg 2024-25 project.
